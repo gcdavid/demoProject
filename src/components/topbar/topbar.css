@@ -1,0 +1,42 @@
+.topbar{
+    height: 40px;
+    padding: 10px 150px;
+}
+
+.topbarWrapper{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    margin: 0px 10px;
+}
+
+.rightList{
+    display: flex;
+    align-items: center;
+}
+
+.rightItems{
+    text-transform: uppercase;
+    
+}
+
+.icon{
+    width: 5px;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.72);
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 700px) {
+    .topbar{
+        padding: 10px;
+    }
+}

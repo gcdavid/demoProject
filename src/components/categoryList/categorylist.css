@@ -1,0 +1,101 @@
+.categorylist{
+    height: 400px;
+}
+
+.categoryLogoList{
+    padding: 10px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.categoryBuro{
+    color: gray;
+}
+
+.categoryLogoTitle{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.categoryLogoList{
+    display: flex;
+    align-items: center;
+    margin: 0px 80px;
+}
+
+.categoryListLine{
+    border: 1px solid gray;
+    width: 20px;
+    margin-left: 25px;
+}
+
+.categoryVintage{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.categoryVintageLogo{
+    display: flex; 
+    align-items: center;
+    width: 30%;
+}
+
+.categorytitle{
+    font-size: 18px;
+    font-weight: 600;
+    color:gray;
+}
+
+.categorySubtitle{
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    color:gray;
+}
+
+
+.categoryMinimalismTitle{
+    font-family: licorice;
+    font-size: 34px;
+    font-weight: 900;
+    color: gray;
+}
+
+.categoryMinimalisSub{
+    text-align: center;
+    color: gray;
+    font-size: 8px;
+}
+
+.categoryDesignTitle{
+    font-size: 28px;
+    color: gray;
+    font-weight: 700;
+}
+
+.categoryVintageHairTitle{
+    color: gray;
+    font-size: 22px;
+    font-weight: 600;
+    border: 2px solid gray;
+    box-decoration-break: slice;
+}
+
+.vintageHairSub{
+    font-weight: 500;
+    font-size: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .categorylist{
+        height: 350px;
+    }
+
+    .categoryLogoList{
+        padding: 10px;
+        margin: 10px;
+    }
+}

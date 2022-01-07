@@ -1,0 +1,68 @@
+.product{
+    height: 100vh;
+}
+
+.productContainer{
+    padding: 30px 60px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 3fr;
+    column-gap: 20px;
+    border: 1px solid green;
+    margin: 0px 80px;
+}
+
+.gridFirst{
+    display: flex;
+    width: 400px;
+    height: 180px;
+    background-color: rgba(255, 192, 203, 0.638);
+    border: 1px solid black;
+}
+
+.imgContainer{
+
+}
+
+.imgProduct{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.productInfoContainer{
+    border: 1px solid black;
+}
+
+.gridSecond{
+    background-color: rgba(50, 205, 50, 0.433);
+    display: flex;
+    width: 300px;
+    height: 180px;
+}
+
+.gridThird{
+    grid-row: span 2;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 0, 0.296);
+}
+
+.imgProductThird{
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.gridFour{
+    background-color: rgba(50, 205, 50, 0.597);
+    border: 1px solid red;
+    width: 300px;
+    height: 180px;
+}
+
+.gridFive{
+    background-color: rgba(95, 158, 160, 0.597);
+    width: 400px;
+    height: 180px;
+}

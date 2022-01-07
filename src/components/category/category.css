@@ -1,0 +1,33 @@
+.category{
+    padding: 40px 70px;
+    position: relative;
+}
+
+.categoryImg{
+    height: 200px;
+    width: 240px;
+    object-fit: cover;
+    
+}
+
+.categoryButton{
+    color: gray;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 13px 100px;
+    border:none;
+    background-color: rgba(245, 245, 245, 0.933);
+    position: absolute;
+    bottom: 120px;
+    left: 39%;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    .category{
+        padding: 10px;
+        display: flex;
+        overflow: hidden;
+        width: 100%;
+    }
+}

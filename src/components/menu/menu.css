@@ -1,0 +1,26 @@
+
+.menuContainer{
+    width: 250px;
+    height: 300px;
+    background-color: rgb(244, 245, 247);
+}
+
+.menuImgContainer{
+    margin-bottom: 20px;
+}
+
+.menuImg{
+    margin: 20px;
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.infoTitle{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.infoPrice{
+    font-weight: bold;
+}
